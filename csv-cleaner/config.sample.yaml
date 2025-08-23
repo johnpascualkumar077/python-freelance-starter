@@ -1,0 +1,24 @@
+read:
+  encoding: utf-8
+  header: 0
+cleaning:
+  strip_whitespace: true
+  drop_duplicates: true
+  drop_na_rows_if_all_na: true
+  fillna:
+    price: 0
+    note: ''
+  dtype:
+    id: int64
+    price: float64
+  parse_dates:
+  - order_date
+  date_format: '%Y-%m-%d'
+  columns_order:
+  - id
+  - name
+  - order_date
+  - price
+  - note
+output:
+  to_excel: false

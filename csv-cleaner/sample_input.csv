@@ -1,0 +1,6 @@
+id,name,order_date,price,note
+1.0,  Apple ,2025/08/01,100.0, first
+2.0,Banana,2025-08-02,200.0,
+2.0,Banana,2025-08-02,200.0,
+3.0,Orange,,,  
+,Grape ,2025-08-05 ,0.0,
